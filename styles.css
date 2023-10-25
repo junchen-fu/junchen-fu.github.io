@@ -1,8 +1,22 @@
+a {
+    text-decoration: none;
+    color: #00aaff;  /* 这是一个浅蓝色的十六进制颜色代码 */
+    font-weight: bold;  /* 这会使超链接文字加粗 */
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
+}
+
+p {
+    line-height: 1.8;  /* 这将设置行间距为字体大小的1.6倍 */
+}
+
+ul{
+    line-height: 1.9;
 }
 
 .container {
@@ -11,7 +25,7 @@ body {
     margin: auto;
     background-color: #fff;
     padding: 50px;  /* 增加内边距 */
-    border-radius: 8px;
+    border-radius: 1px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
@@ -26,11 +40,11 @@ body {
 
 .header img {
     /*border-radius: 50%;*/
-    border-radius: 10px;
+    /*border-radius: 1px;*/
 }
 
 .left img {
-    border-radius: 10px;  /* 调整为你想要的圆角大小，或删除此行以获得完全方形的图像 */
+    border-radius: 5px;  /* 调整为你想要的圆角大小，或删除此行以获得完全方形的图像 */
 }
 
 .right {
