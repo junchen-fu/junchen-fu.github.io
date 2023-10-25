@@ -6,20 +6,40 @@ body {
 }
 
 .container {
-    width: 80%;
+    width: 60%;  /* 减小宽度 */
+    max-width: 800px;  /* 设定最大宽度 */
     margin: auto;
     background-color: #fff;
-    padding: 20px;
+    padding: 50px;  /* 增加内边距 */
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
+
 .header {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    justify-content: center;
+    gap: 20px;
 }
 
 .header img {
-    border-radius: 50%;
+    /*border-radius: 50%;*/
+    border-radius: 10px;
+}
+
+.left img {
+    border-radius: 10px;  /* 调整为你想要的圆角大小，或删除此行以获得完全方形的图像 */
+}
+
+.right {
+    max-width: 500px;
+}
+
+.right h1, .right p {
+    margin: 0;
+    margin-bottom: 10px;
 }
 
 .section {
