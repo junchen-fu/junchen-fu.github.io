@@ -45,9 +45,15 @@
     position: fixed;
     right: 0;
     top: 0;
-    background-color: #f3f3f3;
+    background-color: #f5f7ed;
     /* Add more styling as needed */
 }
+
+.news-sidebar h3 {
+    margin-left: 20px; /* 右移动 20px，可根据需要调整 */
+}
+
+
 a {
     text-decoration: none;
     color: #00aaff;  /* 这是一个浅蓝色的十六进制颜色代码 */
