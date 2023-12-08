@@ -39,7 +39,7 @@
 
 
 .news-sidebar {
-    width: 300px; /* Adjust as needed */
+    width: 330px; /* Adjust as needed */
     height: 100vh; /* Full viewport height */
     overflow-y: auto; /* Makes it scrollable */
     position: fixed;
