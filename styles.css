@@ -1,13 +1,13 @@
 
 .nav-bar {
-    width: 280px; /* 可以根据需要调整宽度 */
+    width: 130px; /* 可以根据需要调整宽度 */
     height: 100vh; /* 视口的完整高度 */
     position: fixed;
     left: 0;
     top: 0;
     background-color: #333; /* 背景颜色，可以根据需要修改 */
     color: white;
-    padding: 40px;
+    padding: 0;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -39,14 +39,12 @@
 
 
 .news-sidebar {
-    width: 330px; /* Adjust as needed */
-    height: 100vh; /* Full viewport height */
-    overflow-y: auto; /* Makes it scrollable */
-    position: fixed;
-    right: 0;
-    top: 0;
-    background-color: #DDEEFF;
+    width: 100%; /* Full width of its container */
+    height: 200px; /* Height to fit content or a specific height if you want a scrollbar */
+    overflow-y: auto; /* Makes it scrollable if height is less than content */
+    background-color: rgb(235, 242, 248); /* Light blue background color */
     /* Add more styling as needed */
+    /* Remove the fixed positioning and right: 0; top: 0; properties */
 }
 
 .news-sidebar h3 {
@@ -69,7 +67,10 @@ body {
 
 p {
     line-height: 1.8;  /* 这将设置行间距为字体大小的1.6倍 */
+    text-align: justify;
+    text-justify: inter-word;
 }
+
 
 ul{
     line-height: 1.9;
@@ -82,6 +83,7 @@ ul{
     display: block;
     margin-bottom: 10px;
 }
+
 
 .container {
     width: 60%;  /* 减小宽度 */
