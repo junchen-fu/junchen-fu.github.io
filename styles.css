@@ -1,3 +1,53 @@
+
+.nav-bar {
+    width: 280px; /* 可以根据需要调整宽度 */
+    height: 100vh; /* 视口的完整高度 */
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #333; /* 背景颜色，可以根据需要修改 */
+    color: white;
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* 垂直居中对齐 */
+}
+
+.nav-bar ul {
+    list-style: none; /* 移除列表标记 */
+    padding: 0; /* 移除默认的内边距 */
+    margin: 0; /* 移除默认的外边距 */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 水平居中列表项 */
+}
+
+.nav-bar li {
+    /* 可根据需要添加样式，如间距等 */
+    margin-bottom: 30px; /* 为列表项添加间距 */
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    /* 可根据需要添加样式 */
+}
+
+/* 可能需要根据实际效果进一步调整 */
+
+
+
+.news-sidebar {
+    width: 300px; /* Adjust as needed */
+    height: 100vh; /* Full viewport height */
+    overflow-y: auto; /* Makes it scrollable */
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: #f3f3f3;
+    /* Add more styling as needed */
+}
 a {
     text-decoration: none;
     color: #00aaff;  /* 这是一个浅蓝色的十六进制颜色代码 */
@@ -66,27 +116,4 @@ ul{
 
 .section {
     margin-top: 20px;
-}
-
-.nav-bar {
-    width: 200px; /* 可以根据需要调整宽度 */
-    height: 100vh; /* 视口的完整高度 */
-    position: fixed;
-    left: 0;
-    top: 0;
-    background-color: #333; /* 背景颜色，可以根据需要修改 */
-    color: white;
-    padding: 20px;
-    box-sizing: border-box;
-}
-
-.news-sidebar {
-    width: 300px; /* Adjust as needed */
-    height: 100vh; /* Full viewport height */
-    overflow-y: auto; /* Makes it scrollable */
-    position: fixed;
-    right: 0;
-    top: 0;
-    background-color: #f3f3f3;
-    /* Add more styling as needed */
 }
