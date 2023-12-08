@@ -19,6 +19,14 @@ ul{
     line-height: 1.9;
 }
 
+
+.nav-bar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
 .container {
     width: 60%;  /* 减小宽度 */
     max-width: 800px;  /* 设定最大宽度 */
@@ -58,4 +66,27 @@ ul{
 
 .section {
     margin-top: 20px;
+}
+
+.nav-bar {
+    width: 200px; /* 可以根据需要调整宽度 */
+    height: 100vh; /* 视口的完整高度 */
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #333; /* 背景颜色，可以根据需要修改 */
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.news-sidebar {
+    width: 300px; /* Adjust as needed */
+    height: 100vh; /* Full viewport height */
+    overflow-y: auto; /* Makes it scrollable */
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: #f3f3f3;
+    /* Add more styling as needed */
 }
