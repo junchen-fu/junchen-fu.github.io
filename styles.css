@@ -1,7 +1,9 @@
 
 .nav-bar {
     width: 100%; /* 导航栏宽度设置为100% */
+    height: 30px;
     position: fixed; /* 固定位置 */
+    
     top: 0; /* 距离顶部0，意味着它会固定在顶部 */
     left: 0; /* 距离左侧0，确保导航栏横跨整个页面 */
     z-index: 1000; /* 设置一个高的z-index值确保导航栏在其他内容上面 */
@@ -60,7 +62,7 @@ a {
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding-top: 50px;
+    padding-top: 30px;
     background-color: #f0f0f0;
 }
 
