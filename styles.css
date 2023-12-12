@@ -14,6 +14,10 @@
 }
 
 
+#googlescholar {
+    vertical-align: middle;
+}
+
 .nav-bar ul {
     list-style-type: none; /* 移除列表前的点 */
     margin: 0; /* 移除默认的外边距 */
@@ -48,10 +52,6 @@
     /* Remove the fixed positioning and right: 0; top: 0; properties */
 }
 
-.news-sidebar h3 {
-    margin-left: 20px; /* 右移动 20px，可根据需要调整 */
-}
-
 
 a {
     text-decoration: none;
@@ -62,7 +62,7 @@ a {
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding-top: 30px;
+    padding-top: 10px;
     background-color: #f0f0f0;
 }
 
@@ -111,7 +111,8 @@ ul{
 }
 
 .left img {
-    border-radius: 5px;  /* 调整为你想要的圆角大小，或删除此行以获得完全方形的图像 */
+    /*border-radius: 5px;   调整为你想要的圆角大小，或删除此行以获得完全方形的图像 */
+    padding-left: 50px;
 }
 
 .right {
