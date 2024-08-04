@@ -66,6 +66,13 @@ body {
     background-color: #f0f0f0;
 }
 
+sup {
+    vertical-align: top;
+    font-size: 20px;
+    position: relative;
+    top: -0.2em;
+}
+
 p {
     line-height: 1.8;  /* 这将设置行间距为字体大小的1.6倍 */
     text-align: justify;
